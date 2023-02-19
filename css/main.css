@@ -12,6 +12,14 @@ body{
 .post h1{
     font-size: 25px;
 }
+.post1{
+    width: 50%;
+    background-color: rgba(234, 234, 234);
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px ;
+}
 img{
     width:100%
 }
