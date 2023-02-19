@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(188, 193, 193);
+}
+.post{
+    width: 50%;
+    background-color: rgba(234, 234, 234);
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px ;
+}
+.post h1{
+    font-size: 25px;
+}
+img{
+    width:100%
+}
+p{
+    color: rgb(116, 22, 22);
+}
+header{
+    background-color:rgba(234, 234, 234);
+    position: sticky;
+    top: 0;
+    margin-bottom: 5px;
+}
+footer{
+    background-color: rgb(234, 234, 234);
+    color: darkgray;
+}
+header ul,footer ul{
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 15px;
+}
+li{
+    display: flex;
+    margin: 0 10px;
+}
+li img{
+    width: 36px; 
+    margin: 0;
+    padding: 0;
+}
+li p{
+    margin-top: 3%;
+    padding: 0;
+}
+footer a img{
+    width: 60px;
+    border-radius: 25%;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.active {
+    background-color: rgb(185, 181, 181);
+    font-weight: bold;
+    pointer-events: none;
+}
+.button:hover p{
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 757px) {
+.pic {
+    content: url(../images/klass1matesha.jpg);
+}
+
+
+
+header ul {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+}
+
+.post {
+    width: 100%;
+    border-bottom: 0;
+}
+}
